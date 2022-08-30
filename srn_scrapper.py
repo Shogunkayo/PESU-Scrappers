@@ -107,7 +107,7 @@ elif(sys.argv[1] == "2"):
                 break
             
             csv_writer.writerow(details)
-            sleep(10)
+            sleep(15)
 
 elif(sys.argv[1] == "3"):
     with open("Year_"+sys.argv[2]+"_"+sys.argv[3], "w") as file:
