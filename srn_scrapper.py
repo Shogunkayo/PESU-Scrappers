@@ -129,7 +129,7 @@ elif(sys.argv[1] == "3"):
                 break
 
             csv_writer.writerow(details)
-            sleep(10)
+            sleep(20)
 
 else:
     print("Invalid arugements. Please see the readme.md file")
